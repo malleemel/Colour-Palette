@@ -1,6 +1,6 @@
 # Colour-Palette
 
-Colour Palette is a simple application made from Delphi. It can create different colours according to code. All colours are shown in DBGrid and can be chosen among three colour code formats: Delphi/C++/HTML.
+Colour/color Palette is a simple application made from Delphi. It can create different colours according to code. All colours are shown in DBGrid and can be chosen among three colour code formats: Delphi/C++/HTML.
 
 If DBGrid cell is clicked, its colour code will be shown in EditBox.
 
