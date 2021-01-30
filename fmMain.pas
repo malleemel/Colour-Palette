@@ -139,7 +139,10 @@ begin
 
   // Set colour for one cell
   nFieldNo := StrToInt(Copy(Column.FieldName, 2));
-  edtColourCode.Text := aryFieldColour[nFieldNo - 2].AsString;
+  if nFieldNo MOD 2 = 0 then
+    edtColourCode.Text := aryFieldColour[nFieldNo - 2].AsString
+  else
+    edtColourCode.Text := aryFieldColour[nFieldNo - 1].AsString;
 end;
 
 procedure TfrmMain.dbgColourDrawColumnCell(Sender: TObject; const Rect: TRect;
